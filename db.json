@@ -1,0 +1,71 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "email": "refan@gmail.com",
+      "password": "123"
+    },
+    {
+      "id": 2,
+      "email": "json-serveaaaar",
+      "password": "typicode"
+    },
+    {
+      "id": 3,
+      "email": "json-serveaaaar",
+      "password": "typicode"
+    },
+    {
+      "id": 4,
+      "email": "json-serveaaaar",
+      "password": "typicode"
+    },
+    {
+      "id": 5,
+      "email": "json-serveaaaar",
+      "password": "typicode"
+    },
+    {
+      "id": 6,
+      "email": "json-searveaaaar",
+      "password": "typicode"
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    },
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    },
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    },
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    },
+    {
+      "id": 2,
+      "title": "json-serveaaaar",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
