@@ -7,31 +7,21 @@
     },
     {
       "id": 2,
-      "email": "json-serveaaaar",
-      "password": "typicode"
+      "email": "didan@gmail.com",
+      "password": "123"
     },
     {
       "id": 3,
-      "email": "json-serveaaaar",
-      "password": "typicode"
+      "email": "khasandra@gmail.com",
+      "password": "123"
     },
     {
       "id": 4,
-      "email": "json-serveaaaar",
-      "password": "typicode"
-    },
-    {
-      "id": 5,
-      "email": "json-serveaaaar",
-      "password": "typicode"
-    },
-    {
-      "id": 6,
-      "email": "json-searveaaaar",
-      "password": "typicode"
+      "email": "baihaqi@gmail.com",
+      "password": "123"
     }
   ],
-  "posts": [
+  "hospitals": [
     {
       "id": 1,
       "title": "json-server",
@@ -57,15 +47,5 @@
       "title": "json-serveaaaar",
       "author": "typicode"
     }
-  ],
-  "comments": [
-    {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
-    }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  ]
 }
