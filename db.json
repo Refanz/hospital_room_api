@@ -24,28 +24,283 @@
   "hospitals": [
     {
       "id": 1,
-      "title": "json-server",
-      "author": "typicode"
-    },
-    {
-      "id": 1,
-      "title": "json-server",
-      "author": "typicode"
-    },
-    {
-      "id": 1,
-      "title": "json-server",
-      "author": "typicode"
-    },
-    {
-      "id": 1,
-      "title": "json-server",
-      "author": "typicode"
+      "name": "Rumah Sakit Umum Pondok Indah",
+      "type": "Umum",
+      "alamat": "Jl. Metro Duta Kav. UE Pondok Indah, Jakarta Selatan, DKI Jakarta 12310",
+      "telepon": "021-765-7525",
+      "email": "cr.pondokindah@rspondokindah.co.id",
+      "rooms" : [
+        {
+          "name": "Kamar Mawar I 301",
+          "type": "Kamar VIP",
+          "capacity": 1,
+          "isAvailable": true
+        },
+        {
+          "name": "Kamar Melati II 100",
+          "type": "Kamar Biasa",
+          "capacity": 3,
+          "isAvailable": true
+        },
+        {
+          "name": "Kamar Bougenvile I 201",
+          "type": "Kamar Biasa",
+          "capacity": 4,
+          "isAvailable": true
+        }
+      ]
     },
     {
       "id": 2,
-      "title": "json-serveaaaar",
-      "author": "typicode"
+      "name": "RSUP. Dr. Kariadi Semarang",
+      "type": "Umum",
+      "alamat": "Jl. DR. Sutomo No.16, Randusari, Kec. Semarang Sel., Kota Semarang, Jawa Tengah 50244",
+      "telepon": "024-841-3476",
+      "email": "info@rskariadi.co.id",
+      "rooms" : [
+        {
+          "name": "Kamar Flamboyan I 301",
+          "type": "Kamar VIP",
+          "capacity": 1,
+          "isAvailable": true
+        },
+        {
+          "name": "Kamar Melati II 100",
+          "type": "Kamar Biasa",
+          "capacity": 3,
+          "isAvailable": true
+        },
+        {
+          "name": "Kamar Bougenvile I 201",
+          "type": "Kamar Biasa",
+          "capacity": 4,
+          "isAvailable": true
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "RSUP Dr. Mohammad Hoesin Palembang",
+      "type": "Umum",
+      "alamat": "Jl. Jend. Sudirman, Sekip Jaya, Kec. Kemuning, Kota Palembang, Sumatera Selatan 30126",
+      "telepon": "071-135-4088",
+      "email": "hukormas.rsmh@gmail.com",
+      "rooms" : [
+        {
+          "name": "Kamar Flamboyan I 301",
+          "type": "Kamar VIP",
+          "capacity": 1,
+          "isAvailable": true
+        },
+        {
+          "name": "Kamar Melati II 100",
+          "type": "Kamar Biasa",
+          "capacity": 3,
+          "isAvailable": true
+        },
+        {
+          "name": "Kamar Bougenvile I 201",
+          "type": "Kamar Biasa",
+          "capacity": 4,
+          "isAvailable": true
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "RSUPN Dr. Cipto Mangunkusumo",
+      "type": "Umum",
+      "alamat": "Jl. Pangeran Diponegoro No.71, Kenari, Kec. Senen, Kota Jakarta Pusat, Daerah Khusus Ibukota Jakarta 10430",
+      "telepon": "021-150-0135",
+      "email": "info@rscm.co.id",
+      "rooms" : [
+        {
+          "name": "Kamar Flamboyan I 301",
+          "type": "Kamar VIP",
+          "capacity": 1,
+          "isAvailable": true
+        },
+        {
+          "name": "Kamar Melati II 100",
+          "type": "Kamar Biasa",
+          "capacity": 3,
+          "isAvailable": true
+        },
+        {
+          "name": "Kamar Bougenvile I 201",
+          "type": "Kamar Biasa",
+          "capacity": 4,
+          "isAvailable": true
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "RSUP Prof. Dr. R.D. Kandou Kota Manado",
+      "type": "Umum",
+      "alamat": "Jl. Raya Tanawangko No.56, Malalayang Satu Barat, Kec. Malalayang, Kota Manado, Sulawesi Utara",
+      "telepon": "043-183-8203",
+      "email": "info@rsupkandou.com",
+      "rooms" : [
+        {
+          "name": "Kamar Flamboyan I 301",
+          "type": "Kamar VIP",
+          "capacity": 1,
+          "isAvailable": true
+        },
+        {
+          "name": "Kamar Melati II 100",
+          "type": "Kamar Biasa",
+          "capacity": 3,
+          "isAvailable": true
+        },
+        {
+          "name": "Kamar Bougenvile I 201",
+          "type": "Kamar Biasa",
+          "capacity": 4,
+          "isAvailable": true
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Rumah Sakit Mata Cicendo",
+      "type": "Khusus",
+      "alamat": "Jl. Cicendo No.4, Babakan Ciamis, Kec. Sumur Bandung, Kota Bandung, Jawa Barat 40117",
+      "telepon": "022-423-1280",
+      "email": "kontak@cicendoeyehospital.org",
+      "rooms" : [
+        {
+          "name": "Kamar Flamboyan I 301",
+          "type": "Kamar VIP",
+          "capacity": 1,
+          "isAvailable": true
+        },
+        {
+          "name": "Kamar Melati II 100",
+          "type": "Kamar Biasa",
+          "capacity": 3,
+          "isAvailable": true
+        },
+        {
+          "name": "Kamar Bougenvile I 201",
+          "type": "Kamar Biasa",
+          "capacity": 4,
+          "isAvailable": true
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Rumah Sakit Ortopedi Dr. Soeharso Surakarta",
+      "type": "Khusus",
+      "alamat": "Jl. A. Yani No.157, Mendungan, Pabelan, Kec. Kartasura, Kabupaten Sukoharjo, Jawa Tengah 57162",
+      "telepon": "027-171-4458",
+      "email": "rso_solo@rso.go.id",
+      "rooms" : [
+        {
+          "name": "Kamar Flamboyan I 301",
+          "type": "Kamar VIP",
+          "capacity": 1,
+          "isAvailable": true
+        },
+        {
+          "name": "Kamar Melati II 100",
+          "type": "Kamar Biasa",
+          "capacity": 3,
+          "isAvailable": true
+        },
+        {
+          "name": "Kamar Bougenvile I 201",
+          "type": "Kamar Biasa",
+          "capacity": 4,
+          "isAvailable": true
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Rumah Sakit Jantung dan Pembuluh Darah Harapan Kita",
+      "type": "Khusus",
+      "alamat": "Jl. Letjen S. Parman Kav 87 Slipi Jakarta Barat 11420",
+      "telepon": "021-568-2424",
+      "email": "info@pjnhk.go.id",
+      "rooms" : [
+        {
+          "name": "Kamar Flamboyan I 301",
+          "type": "Kamar VIP",
+          "capacity": 1,
+          "isAvailable": true
+        },
+        {
+          "name": "Kamar Melati II 100",
+          "type": "Kamar Biasa",
+          "capacity": 3,
+          "isAvailable": true
+        },
+        {
+          "name": "Kamar Bougenvile I 201",
+          "type": "Kamar Biasa",
+          "capacity": 4,
+          "isAvailable": true
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "RSUP Dr. Rivai Abdullah",
+      "type": "Khusus",
+      "alamat": "Jl. Sungai Kundur, Sungai Kedukan, Kec. Banyuasin I, Kab. Banyuasin, Sumatera Selatan 30963",
+      "telepon": "071-175-372-01",
+      "email": "surel@rsrivaiabdullah.id",
+      "rooms" : [
+        {
+          "name": "Kamar Flamboyan I 301",
+          "type": "Kamar VIP",
+          "capacity": 1,
+          "isAvailable": true
+        },
+        {
+          "name": "Kamar Melati II 100",
+          "type": "Kamar Biasa",
+          "capacity": 3,
+          "isAvailable": true
+        },
+        {
+          "name": "Kamar Bougenvile I 201",
+          "type": "Kamar Biasa",
+          "capacity": 4,
+          "isAvailable": true
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Rumah Sakit Jiwa dr. H. Marzoeki Mahdi",
+      "type": "Khusus",
+      "alamat": "Jl. DR. Sumeru No.114, RT.02/RW.01, Menteng, Kec. Bogor Bar., Kota Bogor, Jawa Barat 16111",
+      "telepon": "025-183-240-24",
+      "email": "hukormas@rsmmbogor.com",
+      "rooms" : [
+        {
+          "name": "Kamar Flamboyan I 301",
+          "type": "Kamar VIP",
+          "capacity": 1,
+          "isAvailable": true
+        },
+        {
+          "name": "Kamar Melati II 100",
+          "type": "Kamar Biasa",
+          "capacity": 3,
+          "isAvailable": true
+        },
+        {
+          "name": "Kamar Bougenvile I 201",
+          "type": "Kamar Biasa",
+          "capacity": 4,
+          "isAvailable": true
+        }
+      ]
     }
   ]
 }

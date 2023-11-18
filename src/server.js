@@ -11,9 +11,9 @@ server.use(jsonServer.bodyParser);
 server.post('/api/users', (req, res) => {
   const usersStore = router.db.get('users').value();
   const userLogin = req.body;
-  const emailExist = usersStore.some((user) => user.email === userLogin.email);
+  const isLogin = usersStore.some((user) => user.email === userLogin.email && user.password === userLogin.password);
 
-  if (emailExist) {
+  if (isLogin) {
     usersStore.map((user) => {
       if (user.email === userLogin.email && user.password === userLogin.password) {
         return res.status(200).json({
@@ -24,7 +24,10 @@ server.post('/api/users', (req, res) => {
       }
     });
   } else {
-    return res.status(400).send('Login failed: email or password is not valid');
+    return res.status(400).send({
+      messages: 'Login failed: email or password is not valid',
+      statusCode: 400,
+    });
   }
 });
 
